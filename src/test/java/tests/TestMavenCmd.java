@@ -23,6 +23,7 @@ public class TestMavenCmd {
         System.setProperty("webdriver.chrome.driver","C:\\www\\drivers\\chrome_driver\\ChromeDriver.exe");
         webDriver = new ChromeDriver();
         //Sample change here
+        //Another sample change here
 
     }
 
