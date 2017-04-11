@@ -30,6 +30,8 @@ public class TestMavenCmd {
     @Test
     public void actualTest(){
 
+System.out.println("Sample change here");
+
         webDriver.navigate().to("http://executeautomation.com/demosite/Login.html");
         webDriver.manage().window().maximize();
         webDriver.findElement(By.name("UserName")).sendKeys("admin");
