@@ -31,6 +31,7 @@ public class TestMavenCmd {
     public void actualTest(){
 
 System.out.println("Sample change here");
+System.out.println("And here too!");
 
         webDriver.navigate().to("http://executeautomation.com/demosite/Login.html");
         webDriver.manage().window().maximize();
