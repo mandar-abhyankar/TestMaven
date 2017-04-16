@@ -4,9 +4,16 @@
 public class SampleClass {
 
     private String Mandar;
+
     public void sampleMethod(){
 
-        System.out.println("Here");
+        try {
+            System.out.println("Here");
+        }
+        catch (Exception e){
+
+
+        }
     }
 
 
