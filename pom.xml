@@ -8,6 +8,18 @@
     <artifactId>TestMaven</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <version>2.19.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
     <dependencies>
 
         <dependency>
