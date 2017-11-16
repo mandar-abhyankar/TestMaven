@@ -8,10 +8,7 @@ public class SampleClass {
     public void sampleMethod(){
 
         //This file is for testing PMD plugin through Jenkins
-        try {
-            System.out.println("Here");
-        }
-        catch (Exception e){
+        System.out.println("Hello, World!");
 
 
         }
